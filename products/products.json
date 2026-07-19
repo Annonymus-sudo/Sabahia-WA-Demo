@@ -1,0 +1,500 @@
+[
+  {
+    "id": 1,
+    "productname": "Sabs Black Tea Jar",
+    "productcategory": "SABS",
+    "imageUrl": "https://alsabahia.com/products/category/Sabs/images/1.png"
+  },
+  {
+    "id": 2,
+    "productname": "Sabs Tea Bag Black/Green",
+    "productcategory": "SABS",
+    "imageUrl": "https://alsabahia.com/products/category/Sabs/images/2.png"
+  },
+  {
+    "id": 3,
+    "productname": "Sabs Jeerakasala Rice 5Kg",
+    "productcategory": "SABS",
+    "imageUrl": "https://alsabahia.com/products/category/Sabs/images/3.png"
+  },
+  {
+    "id": 4,
+    "productname": "Sabs Basmati Rice 5Kg",
+    "productcategory": "SABS",
+    "imageUrl": "https://alsabahia.com/products/category/Sabs/images/4.png"
+  },
+  {
+    "id": 5,
+    "productname": "Sabs Matta Rice 5Kg",
+    "productcategory": "SABS",
+    "imageUrl": "https://alsabahia.com/products/category/Sabs/images/5.png"
+  },
+  {
+    "id": 6,
+    "productname": "Sabio Fabric Softener Cherry Blossom",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/1.png"
+  },
+  {
+    "id": 7,
+    "productname": "Sabio Fabric Softener Pearl Fresh",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/2.png"
+  },
+  {
+    "id": 8,
+    "productname": "Sabio Fabric Softener Aqua Fresh",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/3.png"
+  },
+  {
+    "id": 9,
+    "productname": "Sabio Fabric Softener Calm Blossom",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/4.png"
+  },
+  {
+    "id": 10,
+    "productname": "Sabio Abaya Shampoo Oud Mystic",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/5.png"
+  },
+  {
+    "id": 11,
+    "productname": "Sabio Abaya Shampoo Soft & Silk",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/6.png"
+  },
+  {
+    "id": 12,
+    "productname": "Sabio Detergent Powder Aqua Mist",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/7.png"
+  },
+  {
+    "id": 13,
+    "productname": "Sabio Detergent Powder Lavender Aroma",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/8.png"
+  },
+  {
+    "id": 14,
+    "productname": "Sabio Detergent Powder Green Glow",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/9.png"
+  },
+  {
+    "id": 15,
+    "productname": "Sabio Liquid Detergent Aqua Mist",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/10.png"
+  },
+  {
+    "id": 16,
+    "productname": "Sabio Liquid Detergent Gentle Lavender",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/11.png"
+  },
+  {
+    "id": 17,
+    "productname": "Sabio Liquid Detergent Green Glow",
+    "productcategory": "SABIO",
+    "imageUrl": "https://alsabahia.com/products/category/Sabio/images/12.png"
+  },
+  {
+    "id": 18,
+    "productname": "Tide",
+    "productcategory": "Laundry Products",
+    "imageUrl": "https://alsabahia.com/products/category/LaundryProducts/images/1.png"
+  },
+  {
+    "id": 19,
+    "productname": "Areal",
+    "productcategory": "Laundry Products",
+    "imageUrl": "https://alsabahia.com/products/category/LaundryProducts/images/2.png"
+  },
+  {
+    "id": 20,
+    "productname": "Persil",
+    "productcategory": "Laundry Products",
+    "imageUrl": "https://alsabahia.com/products/category/LaundryProducts/images/3.png"
+  },
+  {
+    "id": 21,
+    "productname": "Comfort",
+    "productcategory": "Laundry Products",
+    "imageUrl": "https://alsabahia.com/products/category/LaundryProducts/images/4.png"
+  },
+  {
+    "id": 22,
+    "productname": "Dabour Herbal Toothpaste",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/1.jpg"
+  },
+  {
+    "id": 23,
+    "productname": "OlAy Natural White",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/2.jpg"
+  },
+  {
+    "id": 24,
+    "productname": "Jergens Daily Moisturizer",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/3.jpg"
+  },
+  {
+    "id": 25,
+    "productname": "Lifebuoy Handwash",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/4.jpg"
+  },
+  {
+    "id": 26,
+    "productname": "Lux Bodywash",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/5.jpg"
+  },
+  {
+    "id": 27,
+    "productname": "Dettol Bodywash",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/6.jpg"
+  },
+  {
+    "id": 28,
+    "productname": "Dettol Bodywash Cool",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/7.jpg"
+  },
+  {
+    "id": 29,
+    "productname": "Dettol Bodywash Skincare",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/8.jpg"
+  },
+  {
+    "id": 30,
+    "productname": "Dettol Soap Cool",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/9.jpg"
+  },
+  {
+    "id": 31,
+    "productname": "Dettol Soap Orginal",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/10.jpg"
+  },
+  {
+    "id": 32,
+    "productname": "Santoor Soap",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/11.jpg"
+  },
+  {
+    "id": 33,
+    "productname": "Fa Soap",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/12.jpg"
+  },
+  {
+    "id": 34,
+    "productname": "Cinthol Soap Lime",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/13.jpg"
+  },
+  {
+    "id": 35,
+    "productname": "Dove Bar Fresh",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/14.jpeg"
+  },
+  {
+    "id": 36,
+    "productname": "Yardley Soap",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/15.jpg"
+  },
+  {
+    "id": 37,
+    "productname": "Yardley Talc",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/16.jpg"
+  },
+  {
+    "id": 38,
+    "productname": "Himani Navaratna Oil",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/17.jpg"
+  },
+  {
+    "id": 39,
+    "productname": "Dabur Amla Hair oil",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/18.jpg"
+  },
+  {
+    "id": 40,
+    "productname": "Vattika Hair Oil Almond",
+    "productcategory": "Health and Beauty",
+    "imageUrl": "https://alsabahia.com/products/category/HealthandBeauty/images/19.jpg"
+  },
+  {
+    "id": 41,
+    "productname": "Miranda",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/1.jpg"
+  },
+  {
+    "id": 42,
+    "productname": "Dew Baby Can",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/2.jpeg"
+  },
+  {
+    "id": 43,
+    "productname": "Pepsi Baby Can",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/3.png"
+  },
+  {
+    "id": 44,
+    "productname": "7Up Baby Can",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/4.jpg"
+  },
+  {
+    "id": 45,
+    "productname": "Star Soda",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/5.jpg"
+  },
+  {
+    "id": 46,
+    "productname": "Oronamin C",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/6.jpg"
+  },
+  {
+    "id": 47,
+    "productname": "Belvita Kleija",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/7.jpg"
+  },
+  {
+    "id": 48,
+    "productname": "Oreo Biscuit",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/8.jpg"
+  },
+  {
+    "id": 49,
+    "productname": "American Tuna",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/9.jpg"
+  },
+  {
+    "id": 50,
+    "productname": "Alali Skipjack Tuna",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/10.jpg"
+  },
+  {
+    "id": 51,
+    "productname": "Kimball Chilly Garlic Sauce",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/11.jpg"
+  },
+  {
+    "id": 52,
+    "productname": "Kimball Ketchup",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/12.jpg"
+  },
+  {
+    "id": 53,
+    "productname": "Nescafe Redmug",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/13.jpg"
+  },
+  {
+    "id": 54,
+    "productname": "Alokozhy Black Tea",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/14.jpg"
+  },
+  {
+    "id": 55,
+    "productname": "Alokozhy Green Tea",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/18.jpg"
+  },
+  {
+    "id": 56,
+    "productname": "Rainbow Evaporated Milk",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/15.jpg"
+  },
+  {
+    "id": 57,
+    "productname": "Al Hamra Milk",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/16.jpg"
+  },
+  {
+    "id": 58,
+    "productname": "Anchor Milk Powder",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/17.jpg"
+  },
+  {
+    "id": 59,
+    "productname": "Kiri Cheese",
+    "productcategory": "Food & Beverages",
+    "imageUrl": "https://alsabahia.com/products/category/FoodandBeverages/images/19.png"
+  },
+  {
+    "id": 60,
+    "productname": "Femy Liquid Detergent Lavender Harmony",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/1.png"
+  },
+  {
+    "id": 61,
+    "productname": "Femy Liquid Detergent Blue Bliss",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/2.png"
+  },
+  {
+    "id": 62,
+    "productname": "Femy Fabric Softener Lavender Breeze",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/3.png"
+  },
+  {
+    "id": 63,
+    "productname": "Femy Fabric Softener Pink Bloom",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/4.png"
+  },
+  {
+    "id": 64,
+    "productname": "Femy Detergent Powder French Floral",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/5.png"
+  },
+  {
+    "id": 65,
+    "productname": "Femy Detergent Powder Lavender Breeze",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/6.png"
+  },
+  {
+    "id": 66,
+    "productname": "Femy Abaya Shampoo Mystic Oud",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/7.png"
+  },
+  {
+    "id": 67,
+    "productname": "Femy Abaya Shampoo Royal Essence",
+    "productcategory": "FEMY",
+    "imageUrl": "https://alsabahia.com/products/category/Femy/images/8.png"
+  },
+  {
+    "id": 68,
+    "productname": "Pif Paf",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/10.jpg"
+  },
+  {
+    "id": 69,
+    "productname": "Masafi Tissue",
+    "productcategory": "Disposable Products",
+    "imageUrl": "https://alsabahia.com/products/category/DisposableProducts/images/6.jpg"
+  },
+  {
+    "id": 70,
+    "productname": "Clorox",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/9.jpg"
+  },
+  {
+    "id": 71,
+    "productname": "Pril Lemon",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/8.jpg"
+  },
+  {
+    "id": 72,
+    "productname": "Gillette Blue 2 Plus",
+    "productcategory": "Disposable Products",
+    "imageUrl": "https://alsabahia.com/products/category/DisposableProducts/images/5.jpg"
+  },
+  {
+    "id": 73,
+    "productname": "Pampers Premium",
+    "productcategory": "Disposable Products",
+    "imageUrl": "https://alsabahia.com/products/category/DisposableProducts/images/1.jpg"
+  },
+  {
+    "id": 74,
+    "productname": "Pampers Pants",
+    "productcategory": "Disposable Products",
+    "imageUrl": "https://alsabahia.com/products/category/DisposableProducts/images/2.jpg"
+  },
+  {
+    "id": 75,
+    "productname": "Pampers Jumbo",
+    "productcategory": "Disposable Products",
+    "imageUrl": "https://alsabahia.com/products/category/DisposableProducts/images/3.jpg"
+  },
+  {
+    "id": 76,
+    "productname": "Always Purple",
+    "productcategory": "Disposable Products",
+    "imageUrl": "https://alsabahia.com/products/category/DisposableProducts/images/4.jpg"
+  },
+  {
+    "id": 77,
+    "productname": "Dettol Flore cleaner",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/1.jpg"
+  },
+  {
+    "id": 78,
+    "productname": "Dettol All Purpose Cleaner",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/2.jpg"
+  },
+  {
+    "id": 79,
+    "productname": "Dettol Multi-Purpose Cleaner",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/3.jpg"
+  },
+  {
+    "id": 80,
+    "productname": "Harpic Toilet Cleaner",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/4.jpg"
+  },
+  {
+    "id": 81,
+    "productname": "Lux Dishwash",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/5.jpg"
+  },
+  {
+    "id": 82,
+    "productname": "Jiff Lemon",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/6.jpg"
+  },
+  {
+    "id": 83,
+    "productname": "Fairy Regular",
+    "productcategory": "Cleaning Products",
+    "imageUrl": "https://alsabahia.com/products/category/CleaningProducts/images/7.jpg"
+  }
+]
