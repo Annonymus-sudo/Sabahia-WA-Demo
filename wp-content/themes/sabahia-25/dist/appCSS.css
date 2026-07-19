@@ -1781,6 +1781,7 @@ html {
   flex-direction: column;
   justify-content: center;
   row-gap: 0.25rem;
+  z-index: 50;
 }
 @media (min-width: 640px) {
   .header__toggler {
@@ -1875,6 +1876,7 @@ html {
 .header__menu.--is-open {
   transform: translateZ(0);
   transition-delay: 0ms;
+  pointer-events: auto;
 }
 .header__menu.--is-open .header__menu__inner {
   transition-delay: 0.4s;

@@ -272,6 +272,175 @@
         </div>
     </section>
 
+    <section class="random-products section overflow-hidden py-16 s:py-32">
+      <div class="-container">
+        <div class="flex justify-between items-end mb-32">
+          <div>
+            <h2 class="ontitle" style="color: #cdc1a4">Our Premium Brands</h2>
+            <h3 class="h2">SABAHIA SELECT</h3>
+          </div>
+
+        </div>
+        <div class="custom-marquee-container overflow-hidden mt-32">
+          <div class="custom-marquee-track flex" id="random-products-wrapper">
+            <!-- Products injected here via JS -->
+          </div>
+        </div>
+      </div>
+      <style>
+        .custom-marquee-container {
+          width: 100%;
+          position: relative;
+        }
+        .custom-marquee-track {
+          display: flex;
+          width: max-content;
+          animation: custom-marquee 80s linear infinite;
+        }
+        .custom-marquee-track:hover {
+          animation-play-state: paused;
+        }
+        @keyframes custom-marquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .product-card-container {
+          flex-shrink: 0;
+          margin: 0 10px; /* horizontal gap */
+        }
+        .product-card-inner {
+          width: 240px;
+          height: 320px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.3s;
+          cursor: pointer;
+          padding: 1.5rem; /* override sectors__item__inner */
+        }
+        .product-card-inner:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+        .product-card-img-wrapper {
+          background-color: white;
+          border-radius: 15px;
+          width: 100%;
+          flex: 1;
+          min-height: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1.5rem;
+          margin-bottom: 0.5rem;
+          overflow: hidden;
+        }
+        .product-card-inner img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+          transition: transform 0.3s;
+        }
+        .product-card-inner:hover img {
+          transform: scale(1.1);
+        }
+        .product-card-cat {
+          font-size: 10px;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: white;
+          margin-bottom: 0.5rem;
+          flex-shrink: 0;
+        }
+        .product-card-title {
+          font-size: 15px;
+          font-weight: 500;
+          text-align: center;
+          color: #cdc1a4; /* Gold colour */
+          line-height: 1.25;
+          flex-shrink: 0;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 100%;
+          padding: 0 1rem;
+        }
+        @media (min-width: 640px) {
+          .product-card-container {
+            margin: 0 15px;
+          }
+          .product-card-inner {
+            width: 280px;
+            height: 350px;
+            padding: 2rem;
+          }
+          .product-card-img-wrapper {
+            padding: 3rem;
+            margin-bottom: 1.25rem;
+          }
+          .product-card-title {
+            font-size: 16px;
+          }
+        }
+      </style>
+      <script>
+        function initRandomProducts() {
+          fetch('./products/products.json')
+            .then(response => response.json())
+            .then(products => {
+              // Filter Sabio and Sabs
+              const filtered = products.filter(p => p.productcategory === 'SABIO' || p.productcategory === 'SABS');
+              
+              // Shuffle array
+              for (let i = filtered.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+              }
+              
+              // Create 2 sets for a perfectly seamless infinite scroll
+              const selected = [...filtered, ...filtered];
+              
+              const wrapper = document.getElementById('random-products-wrapper');
+              if(!wrapper) return;
+              
+              wrapper.innerHTML = ''; // Clear existing
+              
+              selected.forEach(product => {
+                const slide = document.createElement('div');
+                slide.className = 'product-card-container';
+                
+                // Ensure URLs work on GitHub pages by replacing absolute with relative path
+                let imgSrc = product.imageUrl.replace('https://alsabahia.com/products', './products');
+                
+                slide.innerHTML = `
+                  <div class="sectors__item__inner product-card-inner">
+                    <div class="product-card-img-wrapper">
+                      <img src="${imgSrc}" alt="${product.productname}" loading="lazy">
+                    </div>
+                    <span class="product-card-cat">${product.productcategory}</span>
+                    <h4 class="product-card-title">${product.productname}</h4>
+                  </div>
+                `;
+                wrapper.appendChild(slide);
+              });
+            })
+            .catch(err => console.error('Error loading random products:', err));
+        }
+
+        // Run on initial load
+        if(document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initRandomProducts);
+        } else {
+          initRandomProducts();
+        }
+
+        // Run on Taxi navigation
+        document.addEventListener('taxi:navigateIn', initRandomProducts);
+        document.addEventListener('NAVIGATE_IN', initRandomProducts);
+      </script>
+    </section>
+
     <section class="sectors section">
       <div class="-container">
         <div class="max-w-768 mx-auto text-center">

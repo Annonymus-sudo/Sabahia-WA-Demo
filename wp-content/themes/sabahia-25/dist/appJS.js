@@ -48845,6 +48845,11 @@ const py = new sM({
   toggler: document.querySelector(".header__toggler"),
 });
 py.init();
+if(typeof window.taxi !== 'undefined') {
+  window.taxi.on('NAVIGATE_IN', () => { if(py) py.reset(); });
+} else {
+  document.addEventListener('taxi:navigateIn', () => { if(py) py.reset(); });
+}
 const Cp = () => {
     const r = document.querySelector(".solutions__wrapper");
     if (r) {
