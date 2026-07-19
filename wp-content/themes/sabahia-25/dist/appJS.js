@@ -12570,7 +12570,7 @@ class rM {
         this.inner,
         {
           y: "25svh",
-          duration: 1.1,
+          duration: 0.66,
           ease: "expo.inOut",
           onStart: () => {
             window.scrollTo(0, 0);
@@ -12580,28 +12580,28 @@ class rM {
       )
       .to(
         this.text,
-        { y: "-25%", autoAlpha: 1, duration: 1.1, ease: "expo.inOut" },
+        { y: "-25%", autoAlpha: 1, duration: 0.66, ease: "expo.inOut" },
         0
       )
-      .to(this.inner, { y: "60svh", duration: 1.1, ease: "expo.inOut" }, 1.1)
+      .to(this.inner, { y: "60svh", duration: 0.66, ease: "expo.inOut" }, 0.66)
       .to(
         this.text,
-        { y: "-50%", autoAlpha: 1, duration: 1.1, ease: "expo.inOut" },
-        1.1
+        { y: "-50%", autoAlpha: 1, duration: 0.66, ease: "expo.inOut" },
+        0.66
       )
-      .to(this.inner, { y: "84svh", duration: 1.1, ease: "expo.inOut" }, 2.2)
+      .to(this.inner, { y: "84svh", duration: 0.66, ease: "expo.inOut" }, 1.32)
       .to(
         this.text,
         {
           y: "-75%",
           autoAlpha: 1,
-          duration: 1.1,
+          duration: 0.66,
           ease: "expo.inOut",
           onComplete: () => {
             this.checkState();
           },
         },
-        2.2
+        1.32
       );
   }
   checkState() {
@@ -48861,7 +48861,7 @@ const Cp = () => {
             (c = new kn(r, { loop: !0, slidesPerView: "auto" })))
           : d && !c
           ? (r.querySelector(".swiper-wrapper").classList.remove("grid"),
-            (c = new kn(r, { loop: !0, slidesPerView: "auto" })))
+            (c = new kn(r, { loop: !0, slidesPerView: "auto", autoplay: { delay: 0, disableOnInteraction: !1 }, speed: 3000, allowTouchMove: !1 })))
           : !d &&
             !l &&
             (r.querySelector(".swiper-wrapper").classList.add("grid"),

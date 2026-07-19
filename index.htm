@@ -232,7 +232,7 @@
             </div>
           </div>
           <div
-            class="hero__partners grid grid-cols-2 s:flex justify-center items-center gap-32 s:gap-40 mt-4 px-24 s:px-0"
+            class="hero__partners grid grid-cols-2 s:flex justify-center items-center place-items-center gap-32 s:gap-40 mt-4 px-24 s:px-0"
             data-animation="custom">
             <img
               class="w-auto h-40"
@@ -303,6 +303,9 @@
         @keyframes custom-marquee {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
+        }
+        .solutions__wrapper .swiper-wrapper {
+          transition-timing-function: linear !important;
         }
         .product-card-container {
           flex-shrink: 0;
